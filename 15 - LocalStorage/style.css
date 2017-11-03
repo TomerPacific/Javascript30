@@ -64,7 +64,7 @@
     }
 
     .plates input:checked + label:before {
-      content: '🌮';
+      content: 'X';
     }
 
     .add-items {
@@ -75,4 +75,12 @@
       padding:10px;
       outline:0;
       border:1px solid rgba(0,0,0,0.1);
+    }
+
+    #clearBtn{
+      background-color: red;
+      border-radius: 5px;
+      font-size: 1em;
+      font-family: cursive;
+      border: 2px solid black;
     }
