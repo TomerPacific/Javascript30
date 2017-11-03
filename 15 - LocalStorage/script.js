@@ -1,7 +1,13 @@
 const addItems = document.querySelector('.add-items');
-const itemsList = document.querySelector('.plates');
-const items = JSON.parse(localStorage.getItem('items')) || [];
+var itemsList = document.querySelector('.plates');
+var items = JSON.parse(localStorage.getItem('items')) || [];
 
+
+function clearList(){
+	items = [];
+	itemsList.innerHTML = "";
+	localStorage.removeItem('items');
+}
 
 function addItem(event){
 	event.preventDefault(); //prevents page from reloading
