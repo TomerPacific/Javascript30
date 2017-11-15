@@ -140,6 +140,6 @@
 
 
   /* Matches Twitter, TWITTER, twitter, tWitter, TWiTTeR... */
-  .button[href*=twitter] { background: #019FE9; }
+  .button[href*=github] { background: #019FE9; }
   .button[href*=facebook] { background: #3B5998; }
-  .button[href*=courses] { background: #ffc600; }
+  .button[href*=codepen] { background: #ffc600; }
