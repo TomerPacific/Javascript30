@@ -111,6 +111,8 @@
   .bio img {
     float:left;
     margin-right:20px;
+    width: 20%;
+    height: 20%;
   }
 
   .courses {
