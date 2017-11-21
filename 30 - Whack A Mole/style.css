@@ -30,7 +30,7 @@ h1 {
 
 .game {
   width:600px;
-  height:400px;
+  height:600px;
   display:flex;
   flex-wrap:wrap;
   margin:0 auto;
@@ -66,4 +66,9 @@ h1 {
 
 .hole.up .mole {
   top:0;
+}
+
+#start{
+  position: relative;
+  left : 50%;
 }
